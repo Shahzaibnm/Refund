@@ -1,0 +1,280 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x62CaFd0539Cb53365C850107b9391F154F5454A5",
+    "txHash": "0xc62192d5d328de371f464004f255be2424f47d5fb59b427c8623b3dc6886e6df"
+  },
+  "proxies": [
+    {
+      "address": "0x8e52D1C37b37D5b745075b47dFc2c59103d8338E",
+      "txHash": "0xd466f9c84a88a0dcd4382f69346d55f8d1f3a4c6fd3416ede1c3289a76bb5459",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "f6341b053974512a56205c662068f6eac66269f980af1bc10709f4ed4036146f": {
+      "address": "0x9fcB16FD3c7FCF58d8B718cf01de058a08DBB80f",
+      "txHash": "0x0914f5ff27a160382e6c22403c5061a7dddbb4484a3f0f297668af6e886a5d89",
+      "layout": {
+        "solcVersion": "0.8.10",
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "contract": "Refund",
+            "label": "token",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\Refund.sol:11"
+          },
+          {
+            "contract": "Refund",
+            "label": "totalRefundAmount",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\Refund.sol:12"
+          },
+          {
+            "contract": "Refund",
+            "label": "injectCount",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\Refund.sol:15"
+          },
+          {
+            "contract": "Refund",
+            "label": "percentageDivider",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\Refund.sol:16"
+          },
+          {
+            "contract": "Refund",
+            "label": "injects",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "..\\project:\\contracts\\Refund.sol:17"
+          },
+          {
+            "contract": "Refund",
+            "label": "isInjectExit",
+            "type": "t_mapping(t_uint256,t_bool)",
+            "src": "..\\project:\\contracts\\Refund.sol:18"
+          },
+          {
+            "contract": "Refund",
+            "label": "users",
+            "type": "t_mapping(t_address,t_struct(UserData)852_storage)",
+            "src": "..\\project:\\contracts\\Refund.sol:46"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_struct(UserData)852_storage)": {
+            "label": "mapping(address => struct Refund.UserData)"
+          },
+          "t_struct(UserData)852_storage": {
+            "label": "struct Refund.UserData",
+            "members": [
+              {
+                "label": "share",
+                "type": "t_uint256"
+              },
+              {
+                "label": "claimedAmount",
+                "type": "t_uint256"
+              },
+              {
+                "label": "isclaimed",
+                "type": "t_bool"
+              },
+              {
+                "label": "calimedInjection",
+                "type": "t_mapping(t_uint256,t_bool)"
+              }
+            ]
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          }
+        }
+      }
+    },
+    "b403ebbc349d4e91d79deb6f142482d7bb1ce78fefb518c929acafdcd0a83701": {
+      "address": "0xa774c95C9B0fFDe8F42cAe132D671A0DC4Af1E45",
+      "txHash": "0x2c2c7a55b1cb60f4dda0ca95c5bff1d674705a5bb252c0b29a5b4f63d725c5f6",
+      "layout": {
+        "solcVersion": "0.8.10",
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "contract": "RefundV2",
+            "label": "token",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\Refundv2.sol:11"
+          },
+          {
+            "contract": "RefundV2",
+            "label": "totalRefundAmount",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\Refundv2.sol:12"
+          },
+          {
+            "contract": "RefundV2",
+            "label": "injectCount",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\Refundv2.sol:15"
+          },
+          {
+            "contract": "RefundV2",
+            "label": "percentageDivider",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\Refundv2.sol:16"
+          },
+          {
+            "contract": "RefundV2",
+            "label": "injects",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "..\\project:\\contracts\\Refundv2.sol:17"
+          },
+          {
+            "contract": "RefundV2",
+            "label": "isInjectExit",
+            "type": "t_mapping(t_uint256,t_bool)",
+            "src": "..\\project:\\contracts\\Refundv2.sol:18"
+          },
+          {
+            "contract": "RefundV2",
+            "label": "users",
+            "type": "t_mapping(t_address,t_struct(UserData)1163_storage)",
+            "src": "..\\project:\\contracts\\Refundv2.sol:46"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_struct(UserData)1163_storage)": {
+            "label": "mapping(address => struct RefundV2.UserData)"
+          },
+          "t_struct(UserData)1163_storage": {
+            "label": "struct RefundV2.UserData",
+            "members": [
+              {
+                "label": "share",
+                "type": "t_uint256"
+              },
+              {
+                "label": "claimedAmount",
+                "type": "t_uint256"
+              },
+              {
+                "label": "isclaimed",
+                "type": "t_bool"
+              },
+              {
+                "label": "calimedInjection",
+                "type": "t_mapping(t_uint256,t_bool)"
+              }
+            ]
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          }
+        }
+      }
+    }
+  }
+}
